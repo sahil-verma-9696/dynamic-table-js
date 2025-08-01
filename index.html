@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <select name="sort" id="">
-        <option disabled selected value="name">Un-Sorted</option>
-        <option value="name">Sort By Name</option>
-        <option value="email">Sort By Email</option>
-        <option value="age">Sort By Age</option>
-        <option value="joinedDate">Sort By Joining Date</option>
-      </select>
-    </div>
+    <h1 class="text-3xl font-bold underline fixed top-10">
+      <p>Dynamic Table</p>
+      <p>Created by: <b>Sahil Verma</b></p>
+      <p>
+        Technologies Used: <b>Vanilla JS</b>
+        <img
+          class="size-10 inline mx-2"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/250px-JavaScript-logo.png"
+          alt="js logo"
+        />
+      </p>
+    </h1>
+    <div id="root" class="table-wrapper"></div>
   </body>
-  <script src="script.js"></script>
+  <!-- <script type="module" src="script.js"></script> -->
+  <script type="module" src="src/index.js"></script>
 </html>
